@@ -1,0 +1,14 @@
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.exe.config
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.exe
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.pdb
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\CodeFirst.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\CodeFirst.pdb
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.xml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.csprojResolveAssemblyReference.cache
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.exe
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.pdb
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\DotNetZip.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\bin\Debug\DotNetZip.xml
