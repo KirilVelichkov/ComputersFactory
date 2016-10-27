@@ -16,3 +16,21 @@ C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.xml
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.xml
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.dll.config
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.pdb
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.pdb

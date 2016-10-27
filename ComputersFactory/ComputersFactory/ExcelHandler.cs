@@ -1,9 +1,5 @@
-﻿using System;
-using System.Collections.Generic;
+﻿using System.Collections.Generic;
 using System.Data.OleDb;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace ComputersFactory
 {
@@ -13,7 +9,7 @@ namespace ComputersFactory
         /// <summary>
         /// Reads an excel file
         /// </summary>
-        /// <param name="filePath">The exel file path and name</param>
+        /// <param name="filePath">The excel file path and name</param>
         /// <param name="sheetName">The sheet name to be read</param>
         /// <returns>Returns a dictionary where the key is the column name and the value is a list of the columns values</returns>
         public static Dictionary<string, List<string>> ReadFile(string filePath, string sheetName)
@@ -53,6 +49,7 @@ namespace ComputersFactory
                     }
                 }
             }
+
             return result;
         }
     }
