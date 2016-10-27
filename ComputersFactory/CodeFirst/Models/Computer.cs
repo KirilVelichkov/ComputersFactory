@@ -1,37 +1,32 @@
-﻿using System.Collections.Generic;
+﻿using MongoDB.Bson.Serialization.Attributes;
+using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CodeFirst.Models
 {
+    [BsonIgnoreExtraElements]
     public class Computer
     {
-        private ICollection<ComputerType> computerType;
-        private ICollection<Processor> processor;
-        private ICollection<Memory> memory;
-        private ICollection<Videocard> videocard;
-        public Computer()
-        {
-            this.processor = new HashSet<Processor>();
-            this.memory = new HashSet<Memory>();
-            this.videocard = new HashSet<Videocard>();
-            this.computerType = new HashSet<ComputerType>();
-        }
-
+        [BsonIgnore]
         public int Id { get; set; }
 
+        [ForeignKey("ComputerType")]
         public int ComputerTypeId { get; set; }
-        //public string ComputerType { get; set; }
 
+        [ForeignKey("Processor")]
         public int ProcessorId { get; set; }
 
-        public int MemoryId { get; set; }
+        [ForeignKey("Memorycard")]
+        public int MemorycardId { get; set; }
 
+        [ForeignKey("Videocard")]
         public int VideocardId { get; set; }
 
         public decimal Price { get; set; }
 
-        public virtual ICollection<ComputerType> ComputerType { get; set; }
-        public virtual ICollection<Processor> Processor { get; set; }
-        public virtual ICollection<Memory> Memory { get; set; }
-        public virtual ICollection<Videocard> Videocard { get; set; }
+        public virtual ComputerType ComputerType { get; set; }
+        public virtual Processor Processor { get; set; }
+        public virtual Memorycard Memorycard { get; set; }
+        public virtual Videocard Videocard { get; set; }
     }
 }

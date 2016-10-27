@@ -1,0 +1,189 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="DDDDDDModel.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="Computers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ComputerTypeId" Type="int" />
+    <Property Name="ProcessorId" Type="int" />
+    <Property Name="MemoryId" Type="int" />
+    <Property Name="VideoCardId" Type="int" />
+    <Property Name="Price" Type="money" />
+  </EntityType>
+  <EntityType Name="ComputerTypes">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Type" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Manufacturers">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="Name" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="Memories">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ManufacturerId" Type="int" />
+    <Property Name="MhZ" Type="nvarchar" MaxLength="50" />
+    <Property Name="Capacity" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+  </EntityType>
+  <EntityType Name="Processors">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ManufacturerId" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="50" />
+    <Property Name="MhZ" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+  </EntityType>
+  <EntityType Name="sysdiagrams">
+    <Key>
+      <PropertyRef Name="diagram_id" />
+    </Key>
+    <Property Name="name" Type="nvarchar" MaxLength="128" Nullable="false" />
+    <Property Name="principal_id" Type="int" Nullable="false" />
+    <Property Name="diagram_id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="version" Type="int" />
+    <Property Name="definition" Type="varbinary(max)" />
+  </EntityType>
+  <EntityType Name="VideoCards">
+    <Key>
+      <PropertyRef Name="Id" />
+    </Key>
+    <Property Name="Id" Type="int" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="ManufacturerId" Type="int" />
+    <Property Name="Model" Type="nvarchar" MaxLength="50" />
+    <Property Name="Memory" Type="nvarchar" MaxLength="50" />
+    <Property Name="Price" Type="money" />
+  </EntityType>
+  <Association Name="FK_Computers_ComputerTypes">
+    <End Role="ComputerTypes" Type="Self.ComputerTypes" Multiplicity="0..1" />
+    <End Role="Computers" Type="Self.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ComputerTypes">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computers">
+        <PropertyRef Name="ComputerTypeId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computers_Memories">
+    <End Role="Memories" Type="Self.Memories" Multiplicity="0..1" />
+    <End Role="Computers" Type="Self.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Memories">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computers">
+        <PropertyRef Name="MemoryId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computers_Processors">
+    <End Role="Processors" Type="Self.Processors" Multiplicity="0..1" />
+    <End Role="Computers" Type="Self.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Processors">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computers">
+        <PropertyRef Name="ProcessorId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Computers_VideoCards">
+    <End Role="VideoCards" Type="Self.VideoCards" Multiplicity="0..1" />
+    <End Role="Computers" Type="Self.Computers" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="VideoCards">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Computers">
+        <PropertyRef Name="VideoCardId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Memories_Manufacturers">
+    <End Role="Manufacturers" Type="Self.Manufacturers" Multiplicity="0..1" />
+    <End Role="Memories" Type="Self.Memories" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Memories">
+        <PropertyRef Name="ManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Processors_Manufacturers">
+    <End Role="Manufacturers" Type="Self.Manufacturers" Multiplicity="0..1" />
+    <End Role="Processors" Type="Self.Processors" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="Processors">
+        <PropertyRef Name="ManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_VideoCards_Manufacturers">
+    <End Role="Manufacturers" Type="Self.Manufacturers" Multiplicity="0..1" />
+    <End Role="VideoCards" Type="Self.VideoCards" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Manufacturers">
+        <PropertyRef Name="Id" />
+      </Principal>
+      <Dependent Role="VideoCards">
+        <PropertyRef Name="ManufacturerId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="DDDDDDModelStoreContainer">
+    <EntitySet Name="Computers" EntityType="Self.Computers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ComputerTypes" EntityType="Self.ComputerTypes" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Manufacturers" EntityType="Self.Manufacturers" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Memories" EntityType="Self.Memories" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Processors" EntityType="Self.Processors" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="sysdiagrams" EntityType="Self.sysdiagrams" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="VideoCards" EntityType="Self.VideoCards" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_Computers_ComputerTypes" Association="Self.FK_Computers_ComputerTypes">
+      <End Role="ComputerTypes" EntitySet="ComputerTypes" />
+      <End Role="Computers" EntitySet="Computers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computers_Memories" Association="Self.FK_Computers_Memories">
+      <End Role="Memories" EntitySet="Memories" />
+      <End Role="Computers" EntitySet="Computers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computers_Processors" Association="Self.FK_Computers_Processors">
+      <End Role="Processors" EntitySet="Processors" />
+      <End Role="Computers" EntitySet="Computers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Computers_VideoCards" Association="Self.FK_Computers_VideoCards">
+      <End Role="VideoCards" EntitySet="VideoCards" />
+      <End Role="Computers" EntitySet="Computers" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Memories_Manufacturers" Association="Self.FK_Memories_Manufacturers">
+      <End Role="Manufacturers" EntitySet="Manufacturers" />
+      <End Role="Memories" EntitySet="Memories" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Processors_Manufacturers" Association="Self.FK_Processors_Manufacturers">
+      <End Role="Manufacturers" EntitySet="Manufacturers" />
+      <End Role="Processors" EntitySet="Processors" />
+    </AssociationSet>
+    <AssociationSet Name="FK_VideoCards_Manufacturers" Association="Self.FK_VideoCards_Manufacturers">
+      <End Role="Manufacturers" EntitySet="Manufacturers" />
+      <End Role="VideoCards" EntitySet="VideoCards" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>

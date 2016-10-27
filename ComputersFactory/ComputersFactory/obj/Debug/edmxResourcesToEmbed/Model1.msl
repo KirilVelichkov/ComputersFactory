@@ -1,0 +1,77 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Mapping Space="C-S" xmlns="http://schemas.microsoft.com/ado/2009/11/mapping/cs">
+  <EntityContainerMapping StorageEntityContainer="DDDDDDModelStoreContainer" CdmEntityContainer="DDDDDDEntities2">
+    <EntitySetMapping Name="Computers">
+      <EntityTypeMapping TypeName="DDDDDDModel.Computer">
+        <MappingFragment StoreEntitySet="Computers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ComputerTypeId" ColumnName="ComputerTypeId" />
+          <ScalarProperty Name="ProcessorId" ColumnName="ProcessorId" />
+          <ScalarProperty Name="MemoryId" ColumnName="MemoryId" />
+          <ScalarProperty Name="VideoCardId" ColumnName="VideoCardId" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="ComputerTypes">
+      <EntityTypeMapping TypeName="DDDDDDModel.ComputerType">
+        <MappingFragment StoreEntitySet="ComputerTypes">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Type" ColumnName="Type" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Manufacturers">
+      <EntityTypeMapping TypeName="DDDDDDModel.Manufacturer">
+        <MappingFragment StoreEntitySet="Manufacturers">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="Name" ColumnName="Name" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Memories">
+      <EntityTypeMapping TypeName="DDDDDDModel.Memory">
+        <MappingFragment StoreEntitySet="Memories">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ManufacturerId" ColumnName="ManufacturerId" />
+          <ScalarProperty Name="MhZ" ColumnName="MhZ" />
+          <ScalarProperty Name="Capacity" ColumnName="Capacity" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="Processors">
+      <EntityTypeMapping TypeName="DDDDDDModel.Processor">
+        <MappingFragment StoreEntitySet="Processors">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ManufacturerId" ColumnName="ManufacturerId" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="MhZ" ColumnName="MhZ" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="sysdiagrams">
+      <EntityTypeMapping TypeName="DDDDDDModel.sysdiagram">
+        <MappingFragment StoreEntitySet="sysdiagrams">
+          <ScalarProperty Name="name" ColumnName="name" />
+          <ScalarProperty Name="principal_id" ColumnName="principal_id" />
+          <ScalarProperty Name="diagram_id" ColumnName="diagram_id" />
+          <ScalarProperty Name="version" ColumnName="version" />
+          <ScalarProperty Name="definition" ColumnName="definition" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+    <EntitySetMapping Name="VideoCards">
+      <EntityTypeMapping TypeName="DDDDDDModel.VideoCard">
+        <MappingFragment StoreEntitySet="VideoCards">
+          <ScalarProperty Name="Id" ColumnName="Id" />
+          <ScalarProperty Name="ManufacturerId" ColumnName="ManufacturerId" />
+          <ScalarProperty Name="Model" ColumnName="Model" />
+          <ScalarProperty Name="Memory" ColumnName="Memory" />
+          <ScalarProperty Name="Price" ColumnName="Price" />
+        </MappingFragment>
+      </EntityTypeMapping>
+    </EntitySetMapping>
+  </EntityContainerMapping>
+</Mapping>

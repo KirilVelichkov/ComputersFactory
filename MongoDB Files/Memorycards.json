@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5811c878f5a04c383ed27fa3"},"ManufacturerId":1,"MhZ":1300,"Capacity":"2gb","Price":50}
+{"_id":{"$oid":"5811f2f8f5a04c383ed27fa7"},"ManufacturerId":1,"MhZ":1400,"Capacity":"4gb","Price":70}

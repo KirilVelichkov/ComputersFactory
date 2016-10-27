@@ -10,3 +10,9 @@ C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\obj
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.pdb
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.dll
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.xml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.dll
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.xml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.xml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.xml

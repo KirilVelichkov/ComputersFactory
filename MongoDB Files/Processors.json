@@ -1,0 +1,2 @@
+{"_id":{"$oid":"5811c91cf5a04c383ed27fa4"},"ManufacturerId":1,"Model":"i3 3300","MhZ":1.4,"Price":40}
+{"_id":{"$oid":"5811f30bf5a04c383ed27fa8"},"ManufacturerId":1,"Model":"i5 4680","MhZ":1.9,"Price":120}
