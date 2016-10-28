@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 using System.ComponentModel.DataAnnotations.Schema;
 
 namespace CodeFirst.Models
@@ -21,8 +22,10 @@ namespace CodeFirst.Models
         [ForeignKey("Manufacturer")]
         public int ManufacturerId { get; set; }
 
+        [Range(0, 10)]
         public double MhZ { get; set; }
 
+        [MaxLength(15)]
         public string Capacity { get; set; }
 
         public decimal Price { get; set; }

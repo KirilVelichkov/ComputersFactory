@@ -1,6 +1,7 @@
 ﻿using MongoDB.Bson.Serialization.Attributes;
 using System.Collections;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
 
 namespace CodeFirst.Models
 {
@@ -17,6 +18,7 @@ namespace CodeFirst.Models
         [BsonIgnore]
         public int Id { get; set; }
 
+        [MaxLength(20)]
         public string Type { get; set; }
 
         public virtual ICollection<Computer> Computers

@@ -1,4 +1,4 @@
-namespace CodeFirst.Migrations
+namespace ComputersFactory.Models.Migrations
 {
     using System;
     using System.Data.Entity;

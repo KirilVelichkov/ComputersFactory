@@ -1,0 +1,16 @@
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.dll.config
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Bson.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Bson.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.csprojResolveAssemblyReference.cache
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.pdb
