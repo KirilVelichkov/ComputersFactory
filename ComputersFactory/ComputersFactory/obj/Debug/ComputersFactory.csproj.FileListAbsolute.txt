@@ -40,3 +40,25 @@ C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory\bin\De
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.csprojResolveAssemblyReference.cache
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\itextsharp.dll
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\itextsharp.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.exe.config
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.exe
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.exe
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\ComputersFactory.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\CodeFirst.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\DotNetZip.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\itextsharp.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\CodeFirst.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\DotNetZip.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\itextsharp.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersFactory\obj\Debug\ComputersFactory.csprojResolveAssemblyReference.cache

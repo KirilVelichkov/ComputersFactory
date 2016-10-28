@@ -34,3 +34,21 @@ C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\Mon
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.dll
 C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.dll.config
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\CodeFirst.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\DotNetZip.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.csprojResolveAssemblyReference.cache
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\CodeFirst\obj\Debug\CodeFirst.pdb
