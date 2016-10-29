@@ -21,6 +21,7 @@ namespace ComputersFactory.Models
         [ForeignKey("Videocard")]
         public int VideocardId { get; set; }
 
+        [Column(TypeName = "Money")]
         public decimal Price { get; set; }
 
         public virtual ComputerType ComputerType { get; set; }

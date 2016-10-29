@@ -25,9 +25,9 @@ namespace ComputersFactory.Models
         [MaxLength(50)]
         public string Model { get; set; }
 
-        [Range(0, 10)]
         public double MhZ { get; set; }
 
+        [Column(TypeName = "Money")]
         public decimal Price { get; set; }
 
         public virtual ICollection<Computer> Computers

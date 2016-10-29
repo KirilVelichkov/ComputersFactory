@@ -4,15 +4,15 @@
 winexe
 C#
 .cs
-C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\
 ComputersClient
 none
 false
 DEBUG;TRACE
-C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersClient\App.xaml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\App.xaml
 41318559277
 
-12340322922
+121207899868
 13738642453
 MainWindow.xaml;Windows\addMemory.xaml;Windows\addProcesor.xaml;Windows\addVideoCard.xaml;
 

@@ -27,6 +27,7 @@ namespace ComputersFactory.Models
         [MaxLength(15)]
         public string Memory { get; set; }
 
+        [Column(TypeName = "Money")]
         public decimal Price { get; set; }
 
         public virtual ICollection<Computer> Computers

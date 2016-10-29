@@ -1,5 +1,5 @@
 ﻿using ComputersFactory.Models.Migrations;
-using ComputersFactory.Logic.Reports;
+using ComputersFactory.Logic;
 using MongoDB.Bson;
 using System;
 using System.Collections;
@@ -20,14 +20,11 @@ namespace ComputersFactory.ConsoleClient
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
             var context = new ComputersFactoryContext();
-            //context.Database.CreateIfNotExists();
+            context.Database.CreateIfNotExists();
 
 
 
-            //var mongo = new MongoDB("ScrewdriverDB");
-
-            //Kogato viknesh red kod se 4upi na predposledniqt loop NQMAM IDEQ ZASHTO
-            //Ako komentirash Computers Loop-a i runnesh metoda i posle razkomentirash loopa i pak go runnesh shte raboti....
+            var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
 
             // Creates xml report

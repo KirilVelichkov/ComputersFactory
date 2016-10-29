@@ -22,12 +22,12 @@ namespace ComputersFactory.Models
         [ForeignKey("Manufacturer")]
         public int ManufacturerId { get; set; }
 
-        [Range(0, 10)]
         public double MhZ { get; set; }
 
         [MaxLength(15)]
         public string Capacity { get; set; }
 
+        [Column(TypeName = "Money")]
         public decimal Price { get; set; }
 
         public virtual ICollection<Computer> Computers
