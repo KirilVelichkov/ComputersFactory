@@ -8,9 +8,11 @@
         Title="MainWindow" Height="700" Width="1050">
     <Grid>
         <Label x:Name="label" Content="ComputersFactory" HorizontalAlignment="Left" VerticalAlignment="Top" Margin="370,35,0,0" Width="304" FontSize="32"/>
-        <Button x:Name="button" Content="Add Processor" HorizontalAlignment="Left" Margin="78,116,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="18" Click="button_Click"/>
+        <!--<Button x:Name="button" Content="Add Processor" HorizontalAlignment="Left" Margin="78,116,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="18" Click="button_Click"/>
         <Button x:Name="button1" Content="Add Memory" HorizontalAlignment="Left" Margin="78,162,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="18" Click="button1_Click"/>
-        <Button x:Name="button2" Content="Add VideoCard" HorizontalAlignment="Left" Margin="78,208,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="18" Click="button2_Click"/>
+        <Button x:Name="button2" Content="Add VideoCard" HorizontalAlignment="Left" Margin="78,208,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="18" Click="button2_Click"/>-->
+        <Button x:Name="button3" Content="Browse Zip" HorizontalAlignment="Left" VerticalAlignment="Top" Width="210" Margin="53,205,0,0" Height="41" FontSize="18" Click="button3_Click"/>
+        <Button x:Name="button4" Content="Create Database" HorizontalAlignment="Left" Margin="53,141,0,0" VerticalAlignment="Top" Width="210" RenderTransformOrigin="0.427,2" Height="41" FontSize="18" Click="button4_Click"/>
 
     </Grid>
 </Window>
