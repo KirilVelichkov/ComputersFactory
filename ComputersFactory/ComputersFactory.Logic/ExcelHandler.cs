@@ -351,5 +351,16 @@ namespace ComputersFactory.Logic
                 factoryContext.SaveChanges();
             }
         }
+
+        public static void TransfertAllData()
+        {
+            //Keep this order
+            TransferManufacturers(ReadFromFile(@"..\..\..\..\Excel\Manufacturers.xlsx", "Sheet1"));
+            TransferComputerTypes(ReadFromFile(@"..\..\..\..\Excel\Computertypes.xlsx", "Sheet1"));
+            TransferProcessors(ReadFromFile(@"..\..\..\..\Excel\Processors.xlsx", "Sheet1"));
+            TransferMemorycards(ReadFromFile(@"..\..\..\..\Excel\Memories.xlsx", "Sheet1"));
+            TransferVideocards(ReadFromFile(@"..\..\..\..\Excel\Videocards.xlsx", "Sheet1"));
+            TransferComputers(ReadFromFile(@"..\..\..\..\Excel\Computers.xlsx", "Sheet1"));
+        }
     }
 }

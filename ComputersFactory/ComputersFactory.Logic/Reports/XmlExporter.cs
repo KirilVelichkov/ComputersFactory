@@ -17,7 +17,7 @@ namespace ComputersFactory.Logic.Reports
                     ComputerReports = reports
                 };
 
-            using (var stream = File.Create($"C:\\Users\\{Environment.UserName}\\Desktop\\ComputersFactory\\reports.xml"))
+            using (var stream = File.Create($"{path}reports.xml"))
             {
                 var xmlSerializer = new XmlSerializer(typeof(ComputerFactoryReports));
                 xmlSerializer.Serialize(stream, computerFactoryReports);

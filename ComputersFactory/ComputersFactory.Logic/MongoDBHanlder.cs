@@ -67,7 +67,6 @@ namespace ComputersFactory.Logic
                     foreach (var memorycard in memorycards)
                     {
                         factoryContext.Memorycards.Add(memorycard);
-                        Console.WriteLine(memorycard.MhZ);
                     }
 
                     foreach (var videocard in videocards)
