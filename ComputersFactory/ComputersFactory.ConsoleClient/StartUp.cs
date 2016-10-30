@@ -17,11 +17,11 @@ namespace ComputersFactory.ConsoleClient
         {
 
             //Dolnite 3 reda suzdavat bazata. Ne gi trii za sega
-           // Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
-           //
-           // var context = new ComputersFactoryContext();
-           // context.Database.CreateIfNotExists();
-           // ZipHanlder.ExtractExcelFiles(@"C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\Excel\Excel.zip");
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+
+            var context = new ComputersFactoryContext();
+            context.Database.CreateIfNotExists();
+            ZipHanlder.ExtractExcelFiles(@"C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\Excel\Excel.zip");
 
 
             var mongo = new MongoDBHanlder("ScrewdriverDB");

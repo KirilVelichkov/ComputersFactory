@@ -143,6 +143,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\ComputersFactory.ConsoleClient\ComputersFactory.ConsoleClient.csproj">
+      <Project>{8392dc3b-9f4c-4f10-a48e-d781d86259f0}</Project>
+      <Name>ComputersFactory.ConsoleClient</Name>
+    </ProjectReference>
     <ProjectReference Include="..\ComputersFactory.Logic\ComputersFactory.Logic.csproj">
       <Project>{7e68da77-eeae-4625-9d64-cd1132c51e8c}</Project>
       <Name>ComputersFactory.Logic</Name>

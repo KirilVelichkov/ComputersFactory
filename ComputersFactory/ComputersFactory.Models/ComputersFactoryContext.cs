@@ -1,5 +1,6 @@
 ﻿using System.Data.Entity;
 using System.Data.Entity.ModelConfiguration.Conventions;
+using System.Threading.Tasks;
 
 namespace ComputersFactory.Models
 {
@@ -22,6 +23,15 @@ namespace ComputersFactory.Models
         protected override void OnModelCreating(DbModelBuilder modelBuilder)
         {
             modelBuilder.Conventions.Remove<OneToManyCascadeDeleteConvention>();
+        }
+
+        public async Task CreateDB()
+        {
+            using (var ctx = new ComputersFactoryContext())
+            {
+                await ctx.Manufacturers.ToListAsync();
+                await ctx.SaveChangesAsync();
+            }
         }
     }
 }

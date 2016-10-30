@@ -43,12 +43,12 @@ namespace ComputersClient
             browseZipWindow.Show();
         }
 
-        private void button4_Click(object sender, RoutedEventArgs e)
+        private async void button4_Click(object sender, RoutedEventArgs e)
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
             var context = new ComputersFactoryContext();
-            context.Database.Create();
+            await context.CreateDB();
 
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;

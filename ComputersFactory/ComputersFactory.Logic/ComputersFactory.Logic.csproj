@@ -108,10 +108,6 @@
     <None Include="packages.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ComputersClient\ComputersClient.csproj">
-      <Project>{2f261a24-9000-4ec5-90b9-0bcef02032bd}</Project>
-      <Name>ComputersClient</Name>
-    </ProjectReference>
     <ProjectReference Include="..\ComputersFactory.Models\ComputersFactory.Models.csproj">
       <Project>{e8ca6dcb-ac95-46be-84e3-f264b77ec411}</Project>
       <Name>ComputersFactory.Models</Name>
