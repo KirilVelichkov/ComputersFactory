@@ -21,7 +21,7 @@ namespace ComputersFactory.ConsoleClient
            //
            // var context = new ComputersFactoryContext();
            // context.Database.CreateIfNotExists();
-            ZipHanlder.ExtractExcelFiles(@"C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\Excel\Excel.zip");
+           // ZipHanlder.ExtractExcelFiles(@"C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\Excel\Excel.zip");
 
 
             var mongo = new MongoDBHanlder("ScrewdriverDB");

@@ -45,6 +45,11 @@ namespace ComputersClient
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+
+            var context = new ComputersFactoryContext();
+            context.Database.Create();
+
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
             worker.RunWorkerAsync();
@@ -54,11 +59,11 @@ namespace ComputersClient
 
         private void worker_DoWork(object sender, DoWorkEventArgs e)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
-
-            var context = new ComputersFactoryContext();
-            context.Database.CreateIfNotExists();
-
+          //  Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+          //
+          //  var context = new ComputersFactoryContext();
+          //  context.Database.CreateIfNotExists();
+          //
         }
 
         private void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
