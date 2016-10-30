@@ -7,23 +7,16 @@ namespace ComputersFactory.Logic
 {
     public static class ZipHanlder
     {
-
-        public static void ExtractExcelFiles(string zipFilePath, string[] fileNames)
+      public static void ExtractExcelFiles(string zipFilePath)
         {
             var filePathAsArray = zipFilePath.Split('\\');
             var pathToExtract = String.Join("\\", filePathAsArray.Take(filePathAsArray.Length - 1));
 
             using (ZipFile zip = ZipFile.Read(zipFilePath))
             {
-                foreach (var file in fileNames)
+                foreach (ZipEntry entry in zip)
                 {
-                    ZipEntry entry = zip[file];
-
-                    using (FileStream outputStream = new FileStream(
-                        pathToExtract + @"\" + file, FileMode.OpenOrCreate))
-                    {
-                        entry.Extract(outputStream);
-                    }
+                    entry.Extract(pathToExtract, ExtractExistingFileAction.OverwriteSilently);
                 }
             }
         }

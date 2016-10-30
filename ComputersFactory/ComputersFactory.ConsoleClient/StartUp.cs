@@ -8,7 +8,6 @@ using System.Data.Entity;
 using System.Data.OleDb;
 using System.Linq;
 using ComputersFactory.Models;
-using ComputersFactory.Logic.Reports;
 
 namespace ComputersFactory.ConsoleClient
 {
@@ -18,15 +17,14 @@ namespace ComputersFactory.ConsoleClient
         {
 
             //Dolnite 3 reda suzdavat bazata. Ne gi trii za sega
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+           // Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+           //
+           // var context = new ComputersFactoryContext();
+           // context.Database.CreateIfNotExists();
+            ZipHanlder.ExtractExcelFiles(@"C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\Excel\Excel.zip");
 
-            var context = new ComputersFactoryContext();
-            context.Database.CreateIfNotExists();
 
-            var mysql = new MySQLHandler(context);
-            mysql.LoadReportsInMySql();
-
-            //var mongo = new MongoDBHanlder("ScrewdriverDB");
+            var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
 
             // Creates xml report
