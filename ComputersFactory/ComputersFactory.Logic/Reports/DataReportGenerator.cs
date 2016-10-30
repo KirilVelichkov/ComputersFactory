@@ -20,22 +20,28 @@ namespace ComputersFactory.Logic.Reports
                 {
                     ID = this.Id,
                     ManufacturerName = manufacturer.Name,
-                    MemoryManufacturer = manufacturer.Memorycards
+                    MemoryManufacturer = context.Manufacturers
+                        .SelectMany(m => m.Memorycards)
                         .Select(m => m.Manufacturer.Name)
                         .FirstOrDefault(),
-                    MemoryCapacity = manufacturer.Memorycards
+                    MemoryCapacity = context.Manufacturers
+                        .SelectMany(m => m.Memorycards)
                         .Select(m => m.Capacity)
                         .FirstOrDefault(),
-                    ProcessorModel = manufacturer.Processors
+                    ProcessorModel = context.Manufacturers
+                        .SelectMany(p => p.Processors)
                         .Select(p => p.Model)
                         .FirstOrDefault(),
-                    ProcessorMhz = manufacturer.Processors
+                    ProcessorMhz = context.Manufacturers
+                        .SelectMany(p => p.Processors)
                         .Select(p => p.MhZ)
                         .FirstOrDefault(),
-                    VideoCardModel = manufacturer.Videocards
+                    VideoCardModel = context.Manufacturers
+                        .SelectMany(v => v.Videocards)
                         .Select(v => v.Model)
                         .FirstOrDefault(),
-                    VideoCardMemory = manufacturer.Videocards
+                    VideoCardMemory = context.Manufacturers
+                        .SelectMany(v => v.Videocards)
                         .Select(v => v.Memory)
                         .FirstOrDefault()
                 };

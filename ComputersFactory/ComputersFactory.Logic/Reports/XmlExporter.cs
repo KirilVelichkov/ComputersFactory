@@ -7,7 +7,7 @@ namespace ComputersFactory.Logic.Reports
 {
     public class XmlExporter
     {
-        public void CreateXmlReport(ComputersFactoryContext context)
+        public void CreateXmlReport(ComputersFactoryContext context, string path)
         {
             var dataGenerator = new DataReportGenerator();
             var reports = dataGenerator.FillWithData(context);

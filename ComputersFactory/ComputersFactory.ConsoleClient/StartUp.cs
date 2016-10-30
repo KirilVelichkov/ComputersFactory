@@ -8,6 +8,7 @@ using System.Data.Entity;
 using System.Data.OleDb;
 using System.Linq;
 using ComputersFactory.Models;
+using ComputersFactory.Logic.Reports;
 
 namespace ComputersFactory.ConsoleClient
 {
@@ -22,9 +23,10 @@ namespace ComputersFactory.ConsoleClient
             var context = new ComputersFactoryContext();
             context.Database.CreateIfNotExists();
 
+            var mysql = new MySQLHandler(context);
+            mysql.LoadReportsInMySql();
 
-
-            var mongo = new MongoDBHanlder("ScrewdriverDB");
+            //var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
 
             // Creates xml report
