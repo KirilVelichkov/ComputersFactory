@@ -54,3 +54,32 @@ C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFact
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.csprojResolveAssemblyReference.cache
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.dll
 C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.pdb
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\ComputersFactory.Logic.dll.config
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\ComputersFactory.Logic.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\ComputersFactory.Logic.pdb
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\ComputersFactory.Models.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\DotNetZip.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\EntityFramework.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\itextsharp.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Bson.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Driver.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MySql.Data.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\Newtonsoft.Json.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\System.Data.SQLite.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\System.Data.SQLite.EF6.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\System.Data.SQLite.Linq.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\DotNetZip.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\EntityFramework.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\itextsharp.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Bson.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Driver.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\Newtonsoft.Json.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\bin\Debug\System.Data.SQLite.xml
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.csprojResolveAssemblyReference.cache
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.dll
+C:\Users\Warez\Desktop\ComputersFactory\ComputersFactory\ComputersFactory.Logic\obj\Debug\ComputersFactory.Logic.pdb

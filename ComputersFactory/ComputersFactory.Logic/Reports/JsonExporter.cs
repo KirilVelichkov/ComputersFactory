@@ -13,16 +13,22 @@ namespace ComputersFactory.Logic.Reports
             this.context = context;
         }
 
-        public void CreateJsonReport(string path)
+        public void CreateJsonReports(string path)
         {
             var dataGenerator = new DataReportGenerator();
-            var data = dataGenerator.FillWithData(context);
-            var json = JsonConvert.SerializeObject(data, Formatting.Indented);
+            var reports = dataGenerator.FillWithData(context);
 
-            File.Create(path).Close();
-            using (var stream = new StreamWriter(path))
+            Directory.CreateDirectory(path);
+
+            foreach (var report in reports)
             {
-                stream.Write(json);
+                var filePath = path + "/" + report.ID + ".json";
+                File.Create(filePath).Close();
+                using (var stream = new StreamWriter(filePath))
+                {
+                    var json = JsonConvert.SerializeObject(report, Formatting.Indented);
+                    stream.Write(json);
+                }
             }
         }
     }

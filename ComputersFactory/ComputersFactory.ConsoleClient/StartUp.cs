@@ -8,6 +8,7 @@ using System.Data.Entity;
 using System.Data.OleDb;
 using System.Linq;
 using ComputersFactory.Models;
+using ComputersFactory.Logic.Reports;
 
 namespace ComputersFactory.ConsoleClient
 {
@@ -32,12 +33,12 @@ namespace ComputersFactory.ConsoleClient
             //xmlReporter.CreateXmlReport(context);
 
             //Generate sample table in pdf file
-            //var pdf = new PdfGenerator();
-            //pdf.CreatePdf($"C:\\Users\\{Environment.UserName}\\Desktop\\ComputersFactory\\Processors.pdf", context);
+            //var pdf = new PdfExporter(context);
+            //pdf.CreatePdf("../../../Pdf-Reports");
 
             //Generate sample json reports
             //var exporter = new JsonExporter(context);
-            //exporter.CreateJsonReport($"C:\\Users\\{Environment.UserName}\\Desktop\\ComputersFactory\\reports.json");
+            //exporter.CreateJsonReports("../../../Json-Reports");
         }
     }
 }
