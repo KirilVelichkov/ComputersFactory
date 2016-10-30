@@ -1,0 +1,146 @@
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe.config
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csprojResolveAssemblyReference.cache
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.g.cs
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\App.g.cs
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.cache
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.lref
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.baml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.g.resources
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.Properties.Resources.resources
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csproj.GenerateResource.Cache
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.g.cs
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.baml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.g.cs
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.g.cs
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.baml
+C:\Users\kaloy\Desktop\DataBase TeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.baml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe.config
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.pdb
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csprojResolveAssemblyReference.cache
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.g.cs
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.g.cs
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.g.cs
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.g.cs
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\App.g.cs
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.cache
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.lref
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.baml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.baml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.baml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.baml
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.g.resources
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.Properties.Resources.resources
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csproj.GenerateResource.Cache
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.exe
+C:\Users\Kiril\Desktop\ScrewdriverDB Team Project\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.g.cs
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.baml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MySql.Data.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MySql.Data.Entity.EF6.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.pdb
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kaloy\Desktop\DataBase Teamwork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe.config
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csprojResolveAssemblyReference.cache
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\App.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.cache
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.lref
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MySql.Data.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.g.resources
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.Properties.Resources.resources
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csproj.GenerateResource.Cache
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe.config
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.exe
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersClient.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MySql.Data.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Logic.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\DotNetZip.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\itextsharp.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\Newtonsoft.Json.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csprojResolveAssemblyReference.cache
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\App.g.cs
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.cache
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient_MarkupCompile.lref
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\MainWindow.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addMemory.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addProcesor.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\Windows\addVideoCard.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\SelectFile.baml
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.g.resources
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.Properties.Resources.resources
+C:\Users\kaloy\Desktop\NewDataBaseTeamWork\New folder\ComputersFactory\ComputersFactory\ComputersClient\obj\Debug\ComputersClient.csproj.GenerateResource.Cache
