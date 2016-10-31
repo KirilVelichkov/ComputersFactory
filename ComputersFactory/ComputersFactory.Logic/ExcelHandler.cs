@@ -54,7 +54,38 @@ namespace ComputersFactory.Logic
             return result;
         }
 
-        public static void TransferComputers(Dictionary<string, List<string>> data)
+		public static void TransferToExcel(Dictionary<string, List<string>> data, string filePath, string sheetName)
+		{
+			string connectionString = $@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = {filePath}; Extended Properties = ""Excel 12.0 Macro;HDR=YES""";
+
+			using (OleDbConnection connection = new OleDbConnection(connectionString))
+			{
+				connection.Open();
+
+				int length = data.Values.FirstOrDefault().Count;
+				for (int i = 0; i < length; i++)
+				{
+					string values = "";
+					string cols = "";
+					foreach (var pair in data)
+					{
+						string value = "'" + pair.Value[i] + "'";
+						values += value + ", ";
+
+						cols += pair.Key + ", ";
+					}
+
+					values = values.Substring(0, values.Length - 2);
+					cols = cols.Substring(0, cols.Length - 2);
+
+					string sql = $"INSERT INTO [{sheetName}$] ({cols}) VALUES({values});";
+					OleDbCommand command = new OleDbCommand(sql, connection);
+					command.ExecuteNonQuery();
+				}
+			}
+		}
+
+		public static void TransferComputers(Dictionary<string, List<string>> data)
         {
             var factoryContext = new ComputersFactoryContext();
 

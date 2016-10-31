@@ -1,6 +1,7 @@
 ﻿using MySql.Data.MySqlClient;
 using ComputersFactory.Logic.Reports;
 using ComputersFactory.Models;
+using System.Collections.Generic;
 
 namespace ComputersFactory.Logic
 {
@@ -75,5 +76,50 @@ namespace ComputersFactory.Logic
             var insertCommand = new MySqlCommand(command, connection);
             insertCommand.ExecuteNonQuery();
         }
-    }
+
+		public static Dictionary<string, List<string>> ReadTable(string table)
+		{
+			MySqlConnection connection = new MySqlConnection(MySQLConnectionString);
+			var result = new Dictionary<string, List<string>>();
+
+			using (connection)
+			{
+				connection.Open();
+
+				MySqlCommand command = new MySqlCommand($"SELECT * FROM {table}", connection);
+
+				using (MySqlDataReader dataReader = command.ExecuteReader())
+				{
+					var columnNames = dataReader.GetSchemaTable();
+					List<List<string>> data = new List<List<string>>();
+
+					for (int i = 0; i < columnNames.Rows.Count; i++)
+					{
+						data.Add(new List<string>());
+					}
+
+					while (dataReader.Read())
+					{
+						for (int i = 0; i < columnNames.Rows.Count; i++)
+						{
+							data[i].Add(dataReader[i].ToString());
+						}
+					}
+
+					for (int i = 0; i < columnNames.Rows.Count; i++)
+					{
+						result[columnNames.Rows[i]["ColumnName"].ToString()] = data[i];
+					}
+				}
+			}
+
+			return result;
+		}
+
+		public static void TransferMySQLData()
+		{
+			ExcelHandler.TransferToExcel(MySQLHandler.ReadTable("Computers"), "", "Sheet1");
+			// The rest
+		}
+	}
 }
