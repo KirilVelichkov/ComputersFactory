@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manufacturers>
+	<manufacturer>
+		<name>Apple</name>
+	</manufacturer>
+	<manufacturer>
+		<name>Toshiba</name>
+	</manufacturer>
+	<manufacturer>
+		<name>Samsung</name>
+	</manufacturer>
+	<manufacturer>
+		<name>Alienware</name>
+	</manufacturer>
+</manufacturers>

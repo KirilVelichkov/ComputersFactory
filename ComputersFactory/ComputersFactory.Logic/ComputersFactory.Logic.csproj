@@ -102,6 +102,7 @@
     <Compile Include="Reports\XmlExporter.cs" />
     <Compile Include="Reports\DataReportGenerator.cs" />
     <Compile Include="SQLiteHandler.cs" />
+    <Compile Include="XMLHandler.cs" />
     <Compile Include="ZipExtractor.cs" />
   </ItemGroup>
   <ItemGroup>

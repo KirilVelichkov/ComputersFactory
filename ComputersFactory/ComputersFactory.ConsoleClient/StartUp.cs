@@ -31,7 +31,9 @@ namespace ComputersFactory.ConsoleClient
 
 			//Task4();
 
-			Task6();
+			Task5();
+
+			//Task6();
 
 			//var mongo = new MongoDBHanlder("ScrewdriverDB");
 			//mongo.TransferToMSSQL().Wait();
@@ -54,7 +56,6 @@ namespace ComputersFactory.ConsoleClient
 
 			var context = new ComputersFactoryContext();
 			context.Database.CreateIfNotExists();
-
 
 			//Button - Extract from Zip
 			ZipHanlder.ExtractExcelFiles(@"..\..\..\..\Excel\Excel.zip");
@@ -96,6 +97,11 @@ namespace ComputersFactory.ConsoleClient
 
 			var exporter = new JsonExporter(context);
 			exporter.CreateJsonReports("../../../Json-Reports");
+		}
+
+		public static void Task5()
+		{
+			XMLHandler.TransferXMLToSQLServer("../../../../XMLFile/Manufacturers.xml");
 		}
 
 		public static void Task6()
