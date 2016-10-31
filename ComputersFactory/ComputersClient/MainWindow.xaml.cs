@@ -19,36 +19,15 @@ namespace ComputersClient
             InitializeComponent();
         }
 
-       // private void button2_Click(object sender, RoutedEventArgs e)
-       // {
-       //     var addVideoCardWindow = new addVideoCard();
-       //     addVideoCardWindow.Show();
-       // }
-       //
-       // private void button1_Click(object sender, RoutedEventArgs e)
-       // {
-       //     var addMemoryWindow = new addMemory();
-       //     addMemoryWindow.Show();
-       // }
-       //
-       // private void button_Click(object sender, RoutedEventArgs e)
-       // {
-       //     var addProcesorWindow = new addProcesor();
-       //     addProcesorWindow.Show();
-       // }
-
         private void button3_Click(object sender, RoutedEventArgs e)
         {
             var browseZipWindow = new SelectFile();
             browseZipWindow.Show();
         }
 
-        private async void button4_Click(object sender, RoutedEventArgs e)
+        private void button4_Click(object sender, RoutedEventArgs e)
         {
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
-
-            var context = new ComputersFactoryContext();
-            await context.CreateDB();
+            MessageBoxResult creatingDB = MessageBox.Show("Creating Database. Please wait.");
 
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
@@ -57,15 +36,14 @@ namespace ComputersClient
 
         private readonly BackgroundWorker worker = new BackgroundWorker();
 
-        private void worker_DoWork(object sender, DoWorkEventArgs e)
+        private async void worker_DoWork(object sender, DoWorkEventArgs e)
         {
-          //  Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
-          //
-          //  var context = new ComputersFactoryContext();
-          //  context.Database.CreateIfNotExists();
-          //
-        }
+            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
+            var context = new ComputersFactoryContext();
+            await context.CreateDB();
+
+        }
         private void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
         {
             MessageBoxResult createDBmsg = MessageBox.Show("Database created successfully");

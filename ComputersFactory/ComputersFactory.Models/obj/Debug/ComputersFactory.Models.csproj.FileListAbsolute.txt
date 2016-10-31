@@ -62,3 +62,19 @@ C:\Users\Peter\Desktop\Projects\Telerik\Other\TeamWork\DB\ComputersFactory\Compu
 C:\Users\Peter\Desktop\Projects\Telerik\Other\TeamWork\DB\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.csprojResolveAssemblyReference.cache
 C:\Users\Peter\Desktop\Projects\Telerik\Other\TeamWork\DB\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.dll
 C:\Users\Peter\Desktop\Projects\Telerik\Other\TeamWork\DB\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.dll.config
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\ComputersFactory.Models.pdb
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Bson.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.Core.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Bson.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\bin\Debug\MongoDB.Driver.Core.xml
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.csprojResolveAssemblyReference.cache
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.dll
+C:\Users\kaloy\Desktop\DataBase TeamWork\New folder\ComputersFactory\ComputersFactory\ComputersFactory.Models\obj\Debug\ComputersFactory.Models.pdb
