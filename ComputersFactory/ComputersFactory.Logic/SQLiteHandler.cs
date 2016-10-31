@@ -53,6 +53,47 @@ namespace ComputersFactory.Logic
 			return result;
 		}
 
-		
+		public static void TransferToExcel(Dictionary<string, List<string>> data, string filePath, string sheetName)
+		{
+			string connectionString = $@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = {filePath}; Extended Properties = ""Excel 12.0 Macro;HDR=YES""";
+
+			using (OleDbConnection connection = new OleDbConnection(connectionString))
+			{
+				connection.Open();
+
+				int length = data.Values.FirstOrDefault().Count;
+				for (int i = 0; i < length; i++)
+				{
+					string values = "";
+					string cols = "";
+					foreach (var pair in data)
+					{
+						string value = "'" + pair.Value[i] + "'";
+						values += value + ", ";
+
+						cols += pair.Key + ", ";
+					}
+
+					values = values.Substring(0, values.Length - 2);
+					cols = cols.Substring(0, cols.Length - 2);
+
+					string sql = $"INSERT INTO [{sheetName}$] ({cols}) VALUES({values});";
+					OleDbCommand command = new OleDbCommand(sql, connection);
+					command.ExecuteNonQuery();
+				}
+			}
+		}
+
+		public static void TransferAllData()
+		{
+			string path = @"..\..\..\Excel-Reports\{0}.xlsx";
+			string dbPath = @"..\..\..\..\SQLiteDB\ComputersFactory.db";
+			TransferToExcel(ReadTable(dbPath, "Computers"), string.Format(path, "Computers"), "Sheet1");
+			TransferToExcel(ReadTable(dbPath, "Manufacturers"), string.Format(path, "Manufacturers"), "Sheet1");
+			TransferToExcel(ReadTable(dbPath, "ComputerTypes"), string.Format(path, "ComputerTypes"), "Sheet1");
+			TransferToExcel(ReadTable(dbPath, "Memories"), string.Format(path, "Memories"), "Sheet1");
+			TransferToExcel(ReadTable(dbPath, "Processors"), string.Format(path, "Processors"), "Sheet1");
+			TransferToExcel(ReadTable(dbPath, "VideoCards"), string.Format(path, "VideoCards"), "Sheet1");
+		}
 	}
 }
