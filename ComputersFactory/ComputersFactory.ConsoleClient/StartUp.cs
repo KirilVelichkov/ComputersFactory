@@ -16,28 +16,35 @@ namespace ComputersFactory.ConsoleClient
 	{
 		public static void Main()
 		{
-			//Task1();
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+            //
+            //var context = new ComputersFactoryContext();
+            //context.Database.CreateIfNotExists();
+            //
+            //
+            //ExcelHandler.TransfertAllData();
+            //Task1();
 
-			//Task2();
+            //Task2();
 
-			//Task3();
+            //Task3();
 
-			//Task4();
+            //Task4();
 
-			Task6();
+            //Task6();
 
-			//var mongo = new MongoDBHanlder("ScrewdriverDB");
-			//mongo.TransferToMSSQL().Wait();
+            //var mongo = new MongoDBHanlder("ScrewdriverDB");
+            //mongo.TransferToMSSQL().Wait();
 
-			// Creates xml report
-			//var xmlReporter = new XmlExporter();
-			//xmlReporter.CreateXmlReport(context);
+            // Creates xml report
+            //var xmlReporter = new XmlExporter();
+            //xmlReporter.CreateXmlReport(context);
 
 
-			//Generate sample json reports
-			//var exporter = new JsonExporter(context);
-			//exporter.CreateJsonReports("../../../Json-Reports");
-		}
+            //Generate sample json reports
+            //var exporter = new JsonExporter(context);
+            //exporter.CreateJsonReports("../../../Json-Reports");
+        }
 
 
 		public static void Task1()

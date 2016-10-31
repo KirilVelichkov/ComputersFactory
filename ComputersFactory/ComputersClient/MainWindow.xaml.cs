@@ -6,6 +6,7 @@ using System.Windows;
 using System.Data.Entity;
 using System.ComponentModel;
 using System.Threading.Tasks;
+using ComputersFactory.Logic.Reports;
 
 namespace ComputersClient
 {
@@ -18,7 +19,6 @@ namespace ComputersClient
         {
             InitializeComponent();
         }
-
         private void button3_Click(object sender, RoutedEventArgs e)
         {
             var browseZipWindow = new SelectFile();
@@ -27,8 +27,6 @@ namespace ComputersClient
 
         private void button4_Click(object sender, RoutedEventArgs e)
         {
-            MessageBoxResult creatingDB = MessageBox.Show("Creating Database. Please wait.");
-
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
             worker.RunWorkerAsync();
@@ -48,10 +46,48 @@ namespace ComputersClient
         {
             MessageBoxResult createDBmsg = MessageBox.Show("Database created successfully");
         }
-
-        private void button4_Click_1(object sender, RoutedEventArgs e)
+        private void button_Click(object sender, RoutedEventArgs e)
         {
+            var mongo = new MongoDBHanlder("ScrewdriverDB");
+            mongo.TransferToMSSQL().Wait();
+        }
 
+        private void button1_Click(object sender, RoutedEventArgs e)
+        {
+            ExcelHandler.TransfertAllData();
+        }
+
+        private void button2_Click(object sender, RoutedEventArgs e)
+        {
+            var context = new ComputersFactoryContext();
+
+            var pdf = new PdfExporter(context);
+            pdf.CreatePdf("../../../Pdf-Reports");
+        }
+
+        private void button5_Click(object sender, RoutedEventArgs e)
+        {
+            var context = new ComputersFactoryContext();
+            var path = @"..\..\..\";
+            var xmlReporter = new XmlExporter();
+            xmlReporter.CreateXmlReport(context, path);
+        }
+
+        private void button6_Click(object sender, RoutedEventArgs e)
+        {
+            var context = new ComputersFactoryContext();
+            var mySql = new MySQLHandler(context);
+
+            mySql.LoadReportsInMySql();
+
+            var exporter = new JsonExporter(context);
+            exporter.CreateJsonReports("../../../Json-Reports");
+        }
+
+        private void button7_Click(object sender, RoutedEventArgs e)
+        {
+            string path = "../../../../SQLiteDB/ComputersFactory.db";
+            var liteInfo = SQLiteHandler.ReadTable(path, "Computers");
         }
     }
 }
