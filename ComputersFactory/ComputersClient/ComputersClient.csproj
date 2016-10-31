@@ -73,16 +73,7 @@
       <Generator>MSBuild:Compile</Generator>
       <SubType>Designer</SubType>
     </ApplicationDefinition>
-    <Compile Include="Windows\addMemory.xaml.cs">
-      <DependentUpon>addMemory.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\addProcesor.xaml.cs">
-      <DependentUpon>addProcesor.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="Windows\addVideoCard.xaml.cs">
-      <DependentUpon>addVideoCard.xaml</DependentUpon>
-    </Compile>
-    <Compile Include="SelectFile.xaml.cs">
+    <Compile Include="Windows\SelectFile.xaml.cs">
       <DependentUpon>SelectFile.xaml</DependentUpon>
     </Compile>
     <Page Include="MainWindow.xaml">
@@ -97,19 +88,7 @@
       <DependentUpon>MainWindow.xaml</DependentUpon>
       <SubType>Code</SubType>
     </Compile>
-    <Page Include="Windows\addMemory.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\addProcesor.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="Windows\addVideoCard.xaml">
-      <SubType>Designer</SubType>
-      <Generator>MSBuild:Compile</Generator>
-    </Page>
-    <Page Include="SelectFile.xaml">
+    <Page Include="Windows\SelectFile.xaml">
       <SubType>Designer</SubType>
       <Generator>MSBuild:Compile</Generator>
     </Page>
