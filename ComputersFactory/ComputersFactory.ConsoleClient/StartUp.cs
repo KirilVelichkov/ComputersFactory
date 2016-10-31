@@ -12,84 +12,92 @@ using ComputersFactory.Logic.Reports;
 
 namespace ComputersFactory.ConsoleClient
 {
-    public class StartUp
-    {
-        public static void Main()
-        {
+	public class StartUp
+	{
+		public static void Main()
+		{
+			//Task1();
+
+			//Task2();
+
+			//Task3();
+
+			//Task4();
+
+			Task6();
+
+			//var mongo = new MongoDBHanlder("ScrewdriverDB");
+			//mongo.TransferToMSSQL().Wait();
+
+			// Creates xml report
+			//var xmlReporter = new XmlExporter();
+			//xmlReporter.CreateXmlReport(context);
 
 
-            //Task1();
-
-            //Task2();
-
-            //Task3();
-
-            Task4();
-
-            //var mongo = new MongoDBHanlder("ScrewdriverDB");
-            //mongo.TransferToMSSQL().Wait();
-
-            // Creates xml report
-            //var xmlReporter = new XmlExporter();
-            //xmlReporter.CreateXmlReport(context);
+			//Generate sample json reports
+			//var exporter = new JsonExporter(context);
+			//exporter.CreateJsonReports("../../../Json-Reports");
+		}
 
 
-            //Generate sample json reports
-            //var exporter = new JsonExporter(context);
-            //exporter.CreateJsonReports("../../../Json-Reports");
-        }
+		public static void Task1()
+		{
+			//Button - Create Database
+			Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+
+			var context = new ComputersFactoryContext();
+			context.Database.CreateIfNotExists();
 
 
-        public static void Task1()
-        {
-            //Button - Create Database
-            Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
+			//Button - Extract from Zip
+			ZipHanlder.ExtractExcelFiles(@"..\..\..\..\Excel\Excel.zip");
 
-            var context = new ComputersFactoryContext();
-            context.Database.CreateIfNotExists();
+			//Button - Load Data from MongoDB to MSSQL
+			var mongo = new MongoDBHanlder("ScrewdriverDB");
+			mongo.TransferToMSSQL().Wait();
 
+			//Button - Load data from Excel to MSSQL
+			ExcelHandler.TransfertAllData();
 
-            //Button - Extract from Zip
-            ZipHanlder.ExtractExcelFiles(@"..\..\..\..\Excel\Excel.zip");
+		}
 
-            //Button - Load Data from MongoDB to MSSQL
-            var mongo = new MongoDBHanlder("ScrewdriverDB");
-            mongo.TransferToMSSQL().Wait();
+		public static void Task2()
+		{
+			//Button - Create PDF Rerpot
+			var context = new ComputersFactoryContext();
 
-            //Button - Load data from Excel to MSSQL
-            ExcelHandler.TransfertAllData();
+			var pdf = new PdfExporter(context);
+			pdf.CreatePdf("../../../Pdf-Reports");
+		}
 
-        }
+		public static void Task3()
+		{
+			//Button - Create XML Report
+			var context = new ComputersFactoryContext();
+			var path = @"..\..\..\";
+			var xmlReporter = new XmlExporter();
+			xmlReporter.CreateXmlReport(context, path);
+		}
 
-        public static void Task2()
-        {
-            //Button - Create PDF Rerpot
-            var context = new ComputersFactoryContext();
+		public static void Task4()
+		{
+			//Button - Create JSON Report and Load data to MySQL
+			var context = new ComputersFactoryContext();
+			var mySql = new MySQLHandler(context);
 
-            var pdf = new PdfExporter(context);
-            pdf.CreatePdf("../../../Pdf-Reports");
-        }
+			mySql.LoadReportsInMySql();
 
-        public static void Task3()
-        {
-            //Button - Create XML Report
-            var context = new ComputersFactoryContext();
-            var path = @"..\..\..\";
-            var xmlReporter = new XmlExporter();
-            xmlReporter.CreateXmlReport(context, path);
-        }
+			var exporter = new JsonExporter(context);
+			exporter.CreateJsonReports("../../../Json-Reports");
+		}
 
-        public static void Task4()
-        {
-            //Button - Create JSON Report and Load data to MySQL
-            var context = new ComputersFactoryContext();
-            var mySql = new MySQLHandler(context);
+		public static void Task6()
+		{
+			string path = "../../../../SQLiteDB/ComputersFactory.db";
+			var liteInfo = SQLiteHandler.ReadTable(path, "Computers");
+			Console.WriteLine();
+			//SQLiteHandler.TransferToExcel(liteInfo, "../../../Excel-Reports/Computers.xlsx", "Computers");
+		}
 
-            mySql.LoadReportsInMySql();
-
-            var exporter = new JsonExporter(context);
-            exporter.CreateJsonReports("../../../Json-Reports");
-        }
-
-    }
+	}
 }
