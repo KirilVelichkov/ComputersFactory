@@ -17,8 +17,8 @@ namespace ComputersFactory.ConsoleClient
 		public static void Main()
 		{
 
-            var mongo = new MongoDBHanlder("ScrewdriverDB");
-            mongo.TransferToMSSQL().Wait();
+            //var mongo = new MongoDBHanlder("ScrewdriverDB");
+            //mongo.TransferToMSSQL().Wait();
 
             //Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
@@ -37,7 +37,7 @@ namespace ComputersFactory.ConsoleClient
 
             //Task5();
 
-            //Task6();
+            Task6();
 
             //var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
