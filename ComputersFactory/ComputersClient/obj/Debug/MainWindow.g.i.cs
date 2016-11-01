@@ -149,7 +149,7 @@ namespace ComputersClient {
             this.button4 = ((System.Windows.Controls.Button)(target));
             
             #line 11 "..\..\MainWindow.xaml"
-            this.button4.Click += new System.Windows.RoutedEventHandler(this.CreateDatabase_click);
+            this.button4.Click += new System.Windows.RoutedEventHandler(this.button4_Click);
             
             #line default
             #line hidden
