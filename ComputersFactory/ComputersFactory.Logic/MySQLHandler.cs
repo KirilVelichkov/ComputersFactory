@@ -82,10 +82,11 @@ namespace ComputersFactory.Logic
 			MySqlConnection connection = new MySqlConnection(MySQLConnectionString);
 			var result = new Dictionary<string, List<string>>();
 
+			connection.Open();
+			connection.ChangeDatabase("computersfactory");
+
 			using (connection)
 			{
-				connection.Open();
-
 				MySqlCommand command = new MySqlCommand($"SELECT * FROM {table}", connection);
 
 				using (MySqlDataReader dataReader = command.ExecuteReader())
@@ -118,8 +119,7 @@ namespace ComputersFactory.Logic
 
 		public static void TransferMySQLData()
 		{
-			ExcelHandler.TransferToExcel(MySQLHandler.ReadTable("Computers"), "", "Sheet1");
-			// The rest
+			ExcelHandler.TransferToExcel(MySQLHandler.ReadTable("reports"), "../../../Excel-Reports/Reports.xlsx", "Sheet1");
 		}
 	}
 }

@@ -35,9 +35,9 @@ namespace ComputersFactory.ConsoleClient
 
             //Task4();
 
-            Task5();
+            //Task5();
 
-            //Task6();
+            Task6();
 
             //var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
@@ -119,6 +119,5 @@ namespace ComputersFactory.ConsoleClient
 			SQLiteHandler.TransferSQLiteData();
 			MySQLHandler.TransferMySQLData();
 		}
-
 	}
 }

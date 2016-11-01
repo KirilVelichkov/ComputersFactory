@@ -6,7 +6,7 @@ namespace ComputersFactory.Models
 {
     public class ComputersFactoryContext : DbContext
     {
-        private const string connectionString = "Server=.;Database=ComputersFactory;Integrated Security = true";
+        private const string connectionString = "Server=.;Database=ComputersFactory;Integrated Security = true;MultipleActiveResultSets=True;";
 
         public ComputersFactoryContext()
             : base(connectionString)
