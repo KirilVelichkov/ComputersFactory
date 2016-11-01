@@ -16,37 +16,41 @@ namespace ComputersFactory.ConsoleClient
 	{
 		public static void Main()
 		{
-			//Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
-			//var context = new ComputersFactoryContext();
-			//context.Database.CreateIfNotExists();
+            var mongo = new MongoDBHanlder("ScrewdriverDB");
+            mongo.TransferToMSSQL().Wait();
 
+            //Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
 
-			//ExcelHandler.TransfertAllData();
-			//Task1();
-
-			//Task2();
-
-			//Task3();
-
-			//Task4();
-
-			Task5();
-
-			//Task6();
-
-			//var mongo = new MongoDBHanlder("ScrewdriverDB");
-			//mongo.TransferToMSSQL().Wait();
-
-			// Creates xml report
-			//var xmlReporter = new XmlExporter();
-			//xmlReporter.CreateXmlReport(context);
+            //var context = new ComputersFactoryContext();
+            //context.Database.CreateIfNotExists();
 
 
-			//Generate sample json reports
-			//var exporter = new JsonExporter(context);
-			//exporter.CreateJsonReports("../../../Json-Reports");
-		}
+            //ExcelHandler.TransfertAllData();
+            //Task1();
+
+            //Task2();
+
+            //Task3();
+
+            //Task4();
+
+            //Task5();
+
+            //Task6();
+
+            //var mongo = new MongoDBHanlder("ScrewdriverDB");
+            //mongo.TransferToMSSQL().Wait();
+
+            // Creates xml report
+            //var xmlReporter = new XmlExporter();
+            //xmlReporter.CreateXmlReport(context);
+
+
+            //Generate sample json reports
+            //var exporter = new JsonExporter(context);
+            //exporter.CreateJsonReports("../../../Json-Reports");
+        }
 
 
 		public static void Task1()

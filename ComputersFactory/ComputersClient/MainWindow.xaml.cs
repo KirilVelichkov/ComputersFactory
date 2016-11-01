@@ -19,13 +19,13 @@ namespace ComputersClient
         {
             InitializeComponent();
         }
-        private void button3_Click(object sender, RoutedEventArgs e)
+        private void ExtractFromZip_button(object sender, RoutedEventArgs e)
         {
             var browseZipWindow = new SelectFile();
             browseZipWindow.Show();
         }
 
-        private void button4_Click(object sender, RoutedEventArgs e)
+        private void CreateDatabase_button(object sender, RoutedEventArgs e)
         {
             worker.DoWork += worker_DoWork;
             worker.RunWorkerCompleted += worker_RunWorkerCompleted;
@@ -46,18 +46,18 @@ namespace ComputersClient
         {
             MessageBoxResult createDBmsg = MessageBox.Show("Database created successfully");
         }
-        private void button_Click(object sender, RoutedEventArgs e)
+        private async void LoadFromMongoDB_button(object sender, RoutedEventArgs e)
         {
             var mongo = new MongoDBHanlder("ScrewdriverDB");
-            mongo.TransferToMSSQL().Wait();
+            await mongo.TransferToMSSQL();
         }
 
-        private void button1_Click(object sender, RoutedEventArgs e)
+        private void LoadFromExcel_button(object sender, RoutedEventArgs e)
         {
             ExcelHandler.TransfertAllData();
         }
 
-        private void button2_Click(object sender, RoutedEventArgs e)
+        private void CreatePDFReport_button(object sender, RoutedEventArgs e)
         {
             var context = new ComputersFactoryContext();
 
@@ -65,7 +65,7 @@ namespace ComputersClient
             pdf.CreatePdf("../../../Pdf-Reports");
         }
 
-        private void button5_Click(object sender, RoutedEventArgs e)
+        private void CreateXMLReport_button(object sender, RoutedEventArgs e)
         {
             var context = new ComputersFactoryContext();
             var path = @"..\..\..\";
@@ -73,7 +73,7 @@ namespace ComputersClient
             xmlReporter.CreateXmlReport(context, path);
         }
 
-        private void button6_Click(object sender, RoutedEventArgs e)
+        private void CreateJSON_and_LoadDataToMSSQL(object sender, RoutedEventArgs e)
         {
             var context = new ComputersFactoryContext();
             var mySql = new MySQLHandler(context);
