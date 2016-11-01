@@ -35,9 +35,9 @@ namespace ComputersFactory.ConsoleClient
 
             //Task4();
 
-            //Task5();
+            Task5();
 
-            Task6();
+            //Task6();
 
             //var mongo = new MongoDBHanlder("ScrewdriverDB");
             //mongo.TransferToMSSQL().Wait();
@@ -105,7 +105,13 @@ namespace ComputersFactory.ConsoleClient
 
 		public static void Task5()
 		{
-			XMLHandler.TransferXMLToSQLServer("../../../../XMLFile/Manufacturers.xml");
+			ComputersFactoryContext context = new ComputersFactoryContext();
+			var rootNode = XMLHandler.ReadXMLFile("../../../../XMLFile/Manufacturers.xml");
+
+			MongoDBHanlder mongoDbHandler = new MongoDBHanlder("ScrewdriverDB");
+
+			XMLHandler.TransferXMLToSQLServer(context, rootNode);
+			XMLHandler.TransferXMLToMongoDB(mongoDbHandler, rootNode);
 		}
 
 		public static void Task6()

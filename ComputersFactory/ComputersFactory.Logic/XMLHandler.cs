@@ -6,19 +6,24 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Xml;
 using System.Xml.Serialization;
+using ComputersFactory.Logic;
 using ComputersFactory.Models;
 
 namespace ComputersFactory.Logic
 {
 	public class XMLHandler
 	{
-		public static void TransferXMLToSQLServer(string filePath)
+		public static XmlNode ReadXMLFile(string filePath)
 		{
 			XmlDocument document = new XmlDocument();
 			document.Load(filePath);
 			XmlNode rootNode = document.DocumentElement;
 
-			ComputersFactoryContext context = new ComputersFactoryContext();
+			return rootNode;
+		}
+
+		public static void TransferXMLToSQLServer(ComputersFactoryContext context, XmlNode rootNode)
+		{
 			foreach (XmlNode node in rootNode.ChildNodes)
 			{
 				context.Manufacturers.Add(new Manufacturer()
@@ -28,6 +33,11 @@ namespace ComputersFactory.Logic
 			}
 
 			context.SaveChanges();
+		}
+
+		public static void TransferXMLToMongoDB(MongoDBHanlder mongoHandler, XmlNode rootNode)
+		{
+			mongoHandler.InsertData(rootNode);
 		}
 	}
 }

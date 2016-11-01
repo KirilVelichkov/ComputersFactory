@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manufacturers>
 	<manufacturer>
-		<name>Apple</name>
+		<name>Dell</name>
 	</manufacturer>
 	<manufacturer>
-		<name>Toshiba</name>
+		<name>Sony</name>
 	</manufacturer>
 	<manufacturer>
 		<name>Samsung</name>
