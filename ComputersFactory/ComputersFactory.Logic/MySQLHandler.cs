@@ -28,16 +28,15 @@ namespace ComputersFactory.Logic
             this.dbContext = context;
         }
 
-        public void LoadReportsInMySql()
+        public void LoadReportsInMySql(DataReportGenerator dataGenerator)
         {
             var context = new MySqlConnection(MySQLConnectionString);
             context.Open();
 
             this.CreateDatabase(context);
             this.CreateTable(context);
-
-            var reportsData = new DataReportGenerator();
-            var reports = reportsData.FillWithData(this.dbContext);
+            
+            var reports = dataGenerator.FillWithData(this.dbContext);
 
             foreach (var report in reports)
             {
@@ -77,7 +76,7 @@ namespace ComputersFactory.Logic
             insertCommand.ExecuteNonQuery();
         }
 
-		public static Dictionary<string, List<string>> ReadTable(string table)
+		public Dictionary<string, List<string>> ReadTable(string table)
 		{
 			MySqlConnection connection = new MySqlConnection(MySQLConnectionString);
 			var result = new Dictionary<string, List<string>>();
@@ -115,11 +114,6 @@ namespace ComputersFactory.Logic
 			}
 
 			return result;
-		}
-
-		public static void TransferMySQLData()
-		{
-			ExcelHandler.TransferToExcel(MySQLHandler.ReadTable("reports"), "../../../Excel-Reports/Reports.xlsx", "Sheet1");
 		}
 	}
 }

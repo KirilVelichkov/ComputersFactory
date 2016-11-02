@@ -5,19 +5,27 @@ using ComputersFactory.Models;
 
 namespace ComputersFactory.Logic.Reports
 {
-    public class XmlExporter
+    public class XmlExporter : IExporter
     {
-        public void CreateXmlReport(ComputersFactoryContext context, string path)
+        private ComputersFactoryContext dbContext;
+
+        public XmlExporter(ComputersFactoryContext context)
+        {
+            this.dbContext = context;
+        }
+
+        public void GenerateReport(string path)
         {
             var dataGenerator = new DataReportGenerator();
-            var reports = dataGenerator.FillWithData(context);
+            var reports = dataGenerator.FillWithData(this.dbContext);
             var computerFactoryReports = 
                 new ComputerFactoryReports
                 {
                     ComputerReports = reports
                 };
 
-            using (var stream = File.Create($"{path}reports.xml"))
+            Directory.CreateDirectory(path);
+            using (var stream = File.Create($"{path}/reports.xml"))
             {
                 var xmlSerializer = new XmlSerializer(typeof(ComputerFactoryReports));
                 xmlSerializer.Serialize(stream, computerFactoryReports);

@@ -6,7 +6,7 @@ using System.IO;
 
 namespace ComputersFactory.Logic.Reports
 {
-    public class PdfExporter
+    public class PdfExporter : IExporter
     {
         private ComputersFactoryContext dbContext;
 
@@ -15,7 +15,7 @@ namespace ComputersFactory.Logic.Reports
             this.dbContext = context;
         }
 
-        public void CreatePdf(string path)
+        public void GenerateReport(string path)
         {
             Directory.CreateDirectory(path);
 

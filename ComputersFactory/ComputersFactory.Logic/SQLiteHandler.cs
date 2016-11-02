@@ -58,12 +58,13 @@ namespace ComputersFactory.Logic
 		{
 			string path = @"..\..\..\Excel-Reports\{0}.xlsx";
 			string dbPath = @"..\..\..\..\SQLiteDB\ComputersFactory.db";
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "Computers"), string.Format(path, "Computers"), "Sheet1");
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "Manufacturers"), string.Format(path, "Manufacturers"), "Sheet1");
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "ComputerTypes"), string.Format(path, "ComputerTypes"), "Sheet1");
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "Memories"), string.Format(path, "Memories"), "Sheet1");
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "Processors"), string.Format(path, "Processors"), "Sheet1");
-			ExcelHandler.TransferToExcel(ReadTable(dbPath, "VideoCards"), string.Format(path, "VideoCards"), "Sheet1");
+            var excelHandler = new ExcelHandler();
+            excelHandler.TransferToExcel(ReadTable(dbPath, "Computers"), string.Format(path, "Computers"), "Sheet1");
+            excelHandler.TransferToExcel(ReadTable(dbPath, "Manufacturers"), string.Format(path, "Manufacturers"), "Sheet1");
+            excelHandler.TransferToExcel(ReadTable(dbPath, "ComputerTypes"), string.Format(path, "ComputerTypes"), "Sheet1");
+            excelHandler.TransferToExcel(ReadTable(dbPath, "Memories"), string.Format(path, "Memories"), "Sheet1");
+            excelHandler.TransferToExcel(ReadTable(dbPath, "Processors"), string.Format(path, "Processors"), "Sheet1");
+            excelHandler.TransferToExcel(ReadTable(dbPath, "VideoCards"), string.Format(path, "VideoCards"), "Sheet1");
 		}
 	}
 }

@@ -54,7 +54,7 @@ namespace ComputersFactory.Logic
             return result;
         }
 
-		public static void TransferToExcel(Dictionary<string, List<string>> data, string filePath, string sheetName)
+		public void TransferToExcel(Dictionary<string, List<string>> data, string filePath, string sheetName)
 		{
 			string connectionString = $@"Provider = Microsoft.ACE.OLEDB.12.0; Data Source = {filePath}; Extended Properties = ""Excel 12.0 Macro;HDR=YES""";
 

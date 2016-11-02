@@ -38,18 +38,6 @@ namespace ComputersFactory.ConsoleClient
             //Task5();
 
             Task6();
-
-            //var mongo = new MongoDBHanlder("ScrewdriverDB");
-            //mongo.TransferToMSSQL().Wait();
-
-            // Creates xml report
-            //var xmlReporter = new XmlExporter();
-            //xmlReporter.CreateXmlReport(context);
-
-
-            //Generate sample json reports
-            //var exporter = new JsonExporter(context);
-            //exporter.CreateJsonReports("../../../Json-Reports");
         }
 
 
@@ -79,7 +67,7 @@ namespace ComputersFactory.ConsoleClient
 			var context = new ComputersFactoryContext();
 
 			var pdf = new PdfExporter(context);
-			pdf.CreatePdf("../../../Pdf-Reports");
+			pdf.GenerateReport("../../../Pdf-Reports");
 		}
 
 		public static void Task3()
@@ -87,8 +75,8 @@ namespace ComputersFactory.ConsoleClient
 			//Button - Create XML Report
 			var context = new ComputersFactoryContext();
 			var path = @"..\..\..\";
-			var xmlReporter = new XmlExporter();
-			xmlReporter.CreateXmlReport(context, path);
+			var xmlReporter = new XmlExporter(context);
+			xmlReporter.GenerateReport(path);
 		}
 
 		public static void Task4()
@@ -96,11 +84,11 @@ namespace ComputersFactory.ConsoleClient
 			//Button - Create JSON Report and Load data to MySQL
 			var context = new ComputersFactoryContext();
 			var mySql = new MySQLHandler(context);
-
-			mySql.LoadReportsInMySql();
+            var dataGenerator = new DataReportGenerator();
+			mySql.LoadReportsInMySql(dataGenerator);
 
 			var exporter = new JsonExporter(context);
-			exporter.CreateJsonReports("../../../Json-Reports");
+			exporter.GenerateReport("../../../Json-Reports");
 		}
 
 		public static void Task5()
@@ -117,7 +105,11 @@ namespace ComputersFactory.ConsoleClient
 		public static void Task6()
 		{
 			SQLiteHandler.TransferSQLiteData();
-			MySQLHandler.TransferMySQLData();
-		}
+            var excelHandler = new ExcelHandler();
+            var context = new ComputersFactoryContext();
+            var mySqlHandler = new MySQLHandler(context);
+            var excelExporter = new ExcelExporter(excelHandler, mySqlHandler);
+            excelExporter.GenerateReport("../../../Excel-Reports/Reports.xlsx");
+        }
 	}
 }

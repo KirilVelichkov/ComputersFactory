@@ -15,9 +15,12 @@ namespace ComputersClient
     /// </summary>
     public partial class MainWindow : Window
     {
+        private ComputersFactoryContext dbContext;
+
         public MainWindow()
         {
             InitializeComponent();
+            this.dbContext = new ComputersFactoryContext();
         }
         private void ExtractFromZip_button(object sender, RoutedEventArgs e)
         {
@@ -37,9 +40,8 @@ namespace ComputersClient
         private async void worker_DoWork(object sender, DoWorkEventArgs e)
         {
             Database.SetInitializer(new MigrateDatabaseToLatestVersion<ComputersFactoryContext, Configuration>());
-
-            var context = new ComputersFactoryContext();
-            await context.CreateDB();
+            
+            await this.dbContext.CreateDB();
 
         }
         private void worker_RunWorkerCompleted(object sender, RunWorkerCompletedEventArgs e)
@@ -59,29 +61,25 @@ namespace ComputersClient
 
         private void CreatePDFReport_button(object sender, RoutedEventArgs e)
         {
-            var context = new ComputersFactoryContext();
-
-            var pdf = new PdfExporter(context);
-            pdf.CreatePdf("../../../Pdf-Reports");
+            var pdf = new PdfExporter(this.dbContext);
+            pdf.GenerateReport("../../../Pdf-Reports");
         }
 
         private void CreateXMLReport_button(object sender, RoutedEventArgs e)
         {
-            var context = new ComputersFactoryContext();
-            var path = @"..\..\..\";
-            var xmlReporter = new XmlExporter();
-            xmlReporter.CreateXmlReport(context, path);
+            var path = @"../../../Xml-Report";
+            var xmlReporter = new XmlExporter(this.dbContext);
+            xmlReporter.GenerateReport(path);
         }
 
         private void CreateJSON_and_LoadDataToMSSQL(object sender, RoutedEventArgs e)
         {
-            var context = new ComputersFactoryContext();
-            var mySql = new MySQLHandler(context);
+            var mySql = new MySQLHandler(this.dbContext);
+            var dataGenerator = new DataReportGenerator();
+            mySql.LoadReportsInMySql(dataGenerator);
 
-            mySql.LoadReportsInMySql();
-
-            var exporter = new JsonExporter(context);
-            exporter.CreateJsonReports("../../../Json-Reports");
+            var exporter = new JsonExporter(this.dbContext);
+            exporter.GenerateReport("../../../Json-Reports");
         }
 
         private void button7_Click(object sender, RoutedEventArgs e)

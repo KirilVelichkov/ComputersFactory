@@ -1,10 +1,11 @@
 ﻿using System.IO;
 using Newtonsoft.Json;
 using ComputersFactory.Models;
+using System;
 
 namespace ComputersFactory.Logic.Reports
 {
-    public class JsonExporter
+    public class JsonExporter : IExporter
     {
         private ComputersFactoryContext context;
 
@@ -12,8 +13,8 @@ namespace ComputersFactory.Logic.Reports
         {
             this.context = context;
         }
-
-        public void CreateJsonReports(string path)
+        
+        public void GenerateReport(string path)
         {
             var dataGenerator = new DataReportGenerator();
             var reports = dataGenerator.FillWithData(context);
