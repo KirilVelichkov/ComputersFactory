@@ -1,0 +1,129 @@
+<?xml version="1.0"?>
+<computer-factory-reports xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
+  <report manufacturer-name="Lenovo">
+    <report-id>1</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Dell">
+    <report-id>2</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Asus">
+    <report-id>3</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Acer">
+    <report-id>4</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="HP">
+    <report-id>5</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="AMD">
+    <report-id>6</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Intel">
+    <report-id>7</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Nvidia">
+    <report-id>8</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Toshiba">
+    <report-id>9</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Apple">
+    <report-id>10</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Dell">
+    <report-id>11</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Sony">
+    <report-id>12</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Samsung">
+    <report-id>13</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+  <report manufacturer-name="Alienware">
+    <report-id>14</report-id>
+    <memory-manufacturer>Lenovo</memory-manufacturer>
+    <memory-capacity>2gb</memory-capacity>
+    <processor-model>i3</processor-model>
+    <processor-mhz>1.6</processor-mhz>
+    <videocard-model>gtx1080</videocard-model>
+    <videocard-memory>4gb</videocard-memory>
+  </report>
+</computer-factory-reports>

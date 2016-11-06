@@ -1,0 +1,10 @@
+{
+  "ID": 7,
+  "ManufacturerName": "Intel",
+  "MemoryManufacturer": "Lenovo",
+  "MemoryCapacity": "2gb",
+  "ProcessorModel": "i3",
+  "ProcessorMhz": 1.6,
+  "VideoCardModel": "gtx1080",
+  "VideoCardMemory": "4gb"
+}

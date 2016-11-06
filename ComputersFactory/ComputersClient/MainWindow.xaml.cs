@@ -56,7 +56,7 @@ namespace ComputersClient
 
         private void LoadFromExcel_button(object sender, RoutedEventArgs e)
         {
-            ExcelHandler.TransfertAllData();
+            ExcelHandler.TransferAllData();
         }
 
         private void CreatePDFReport_button(object sender, RoutedEventArgs e)
@@ -86,6 +86,27 @@ namespace ComputersClient
         {
             string path = "../../../../SQLiteDB/ComputersFactory.db";
             var liteInfo = SQLiteHandler.ReadTable(path, "Computers");
+        }
+
+        private void button8_Click(object sender, RoutedEventArgs e)
+        {
+            ComputersFactoryContext context = new ComputersFactoryContext();
+            var rootNode = XMLHandler.ReadXMLFile("../../../../XMLFile/Manufacturers.xml");
+
+            MongoDBHanlder mongoDbHandler = new MongoDBHanlder("ScrewdriverDB");
+
+            XMLHandler.TransferXMLToSQLServer(context, rootNode);
+            XMLHandler.TransferXMLToMongoDB(mongoDbHandler, rootNode);
+        }
+
+        private void button9_Click(object sender, RoutedEventArgs e)
+        {
+            SQLiteHandler.TransferSQLiteData();
+            var excelHandler = new ExcelHandler();
+            var context = new ComputersFactoryContext();
+            var mySqlHandler = new MySQLHandler(context);
+            var excelExporter = new ExcelExporter(excelHandler, mySqlHandler);
+            excelExporter.GenerateReport("../../../Excel-Reports/Reports.xlsx");
         }
     }
 }

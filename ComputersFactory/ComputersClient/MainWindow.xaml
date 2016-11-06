@@ -15,7 +15,9 @@
         <Button x:Name="button2" Content="Create PDF Rerpot" HorizontalAlignment="Left" Margin="53,479,0,0" VerticalAlignment="Top" Width="210" Height="41" Click="CreatePDFReport_button"/>
         <Button x:Name="button5" Content="Create XML Report" HorizontalAlignment="Left" Margin="403,141,0,0" VerticalAlignment="Top" Width="210" Height="41" Click="CreateXMLReport_button"/>
         <Button x:Name="button6" Content="Create JSON Report and Load data to MySQL" HorizontalAlignment="Left" Margin="403,202,0,0" VerticalAlignment="Top" Width="210" RenderTransformOrigin="0.053,0.25" Height="41" FontSize="10" Click="CreateJSON_and_LoadDataToMSSQL"/>
-        <Button x:Name="button7" Content="Excel Data" HorizontalAlignment="Left" Margin="403,321,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="20" Click="button7_Click"/>
+        <Button x:Name="button7" Content="Excel Data" HorizontalAlignment="Left" Margin="403,262,0,0" VerticalAlignment="Top" Width="210" Height="41" FontSize="20" Click="button7_Click"/>
+        <Button x:Name="button8" Content="           Read from XML &#xD;&#xA;and transfer to Mongo &amp; SQLite&#xD;&#xA;" HorizontalAlignment="Left" Margin="666,141,0,0" VerticalAlignment="Top" Width="210" Height="41" Click="button8_Click"/>
+        <Button x:Name="button9" Content="Generate Excel report from &#xD;&#xA;    MySQL and SQLite" HorizontalAlignment="Left" Margin="666,202,0,0" VerticalAlignment="Top" Width="210" Height="41" Click="button9_Click"/>
 
     </Grid>
 </Window>

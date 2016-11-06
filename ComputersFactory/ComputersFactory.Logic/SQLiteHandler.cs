@@ -10,7 +10,7 @@ using System.Threading.Tasks;
 using MySql.Data.MySqlClient;
 
 namespace ComputersFactory.Logic
-{
+{ 
 	public static class SQLiteHandler
 	{
 		private const string ConnectionString = "Data Source={0}; Version=3;";

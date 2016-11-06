@@ -26,7 +26,7 @@ namespace ComputersFactory.ConsoleClient
             //context.Database.CreateIfNotExists();
 
 
-            ExcelHandler.TransferAllData();
+            //ExcelHandler.TransferAllData();
             //Task1();
 
             //Task2();
@@ -37,7 +37,7 @@ namespace ComputersFactory.ConsoleClient
 
             //Task5();
 
-            //Task6();
+            Task6();
         }
 
 

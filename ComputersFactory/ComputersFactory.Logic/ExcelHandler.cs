@@ -115,18 +115,18 @@ namespace ComputersFactory.Logic
         {
             var defaultSheet = "Sheet1";
             var excelPath = @"..\..\..\..\Excel\";
-            var excelFileExt = "s.xlsx";
+            var excelFileExt = ".xlsx";
             var namespaceName = "ComputersFactory.Models.";
 
             //Keep this order
             var orderedItemTypes = new string[]
             {
-                "Manufacturer",
-                "ComputerType",
-                "Processor",
-                "Memorycard",
-                "Videocard",
-                "Computer"
+                "Manufacturers",
+                "ComputerTypes",
+                "Processors",
+                "Memorycards",
+                "Videocards",
+                "Computers"
             };
 
             foreach (var itemType in orderedItemTypes)
