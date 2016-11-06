@@ -26,7 +26,7 @@ namespace ComputersFactory.ConsoleClient
             //context.Database.CreateIfNotExists();
 
 
-            //ExcelHandler.TransfertAllData();
+            ExcelHandler.TransferAllData();
             //Task1();
 
             //Task2();
@@ -37,7 +37,7 @@ namespace ComputersFactory.ConsoleClient
 
             //Task5();
 
-            Task6();
+            //Task6();
         }
 
 
@@ -57,7 +57,7 @@ namespace ComputersFactory.ConsoleClient
 			mongo.TransferToMSSQL().Wait();
 
 			//Button - Load data from Excel to MSSQL
-			ExcelHandler.TransfertAllData();
+			ExcelHandler.TransferAllData();
 
 		}
 
