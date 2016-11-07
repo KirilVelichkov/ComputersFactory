@@ -1,6 +1,6 @@
 # Computers Factory
 
-###### by Screwdriver
+###### by Team Screwdriver
 
 ## Description
 Teamwork project for TelerikAcademy season 2016, course Databases
