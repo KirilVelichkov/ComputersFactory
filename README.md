@@ -24,6 +24,6 @@ A simple database structure for a computer store.
 | Kaloyan Yanev | Kalito98 | Kalito98 |
 | Milen Dobrinov | Milen.Dobrinov | MilenDobrinov |
 | Todor Arabadzhiev| Todor_ia | todorarabadzhiev |
-| Dilyana Komitova <br/>**(Did not take part in the teamwork)** | Dilyana | Dilyana |
+| Dilyana Komitova <br/>**(Didn't participated)** | Dilyana | Dilyana |
 
 
